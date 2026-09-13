@@ -2,6 +2,12 @@
 
 _Prepared 2026-09-13 · Status: planning only; not submission-ready or submitted._
 
+## Assigned preparation sprint and author update
+
+The owner has added **Dingyi Kang — NextGen PlatformAI C Corp, USA** to the planned author list for the separate submission edition. Working order: Chengshuai Yang, Ting Xue, Dingyi Kang, pending all-author confirmation. The archived v2.6 PDF remains unchanged; updating the editable author record and preparing an anonymous review build are assigned tasks, not completed manuscript edits.
+
+**Dingyi Kang owns all preparation work** in the [single 3–5-working-day task assignment](DINGYI_KANG_PAPER_TASKS.md), including verification, packaging and approval coordination. Scientific approval and each coauthor's consent remain with those authors. The accelerated target requires usable source/evidence and prompt decisions; the longer contingency estimates below still apply when those conditions fail.
+
 ## Recommendation
 
 Target **Transactions on Machine Learning Research (TMLR)** first for [Unified Intelligence Theory and the Artificial Intelligence Level, v2.6](papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf). The priorities are no publication fee, preservation of the original scientific content, and reasonably prompt review.

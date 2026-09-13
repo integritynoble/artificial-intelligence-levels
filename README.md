@@ -16,6 +16,8 @@ The theory, benchmark and dataset are the version-matched 2.6 / 0.4 / 0.4 public
 
 [TMLR submission plan](TMLR_SUBMISSION_PLAN.md): a no-publication-fee journal recommendation, content-preserving preparation workflow, readiness checklist and provisional 1–2-week preparation estimate. The paper has not been submitted through this plan.
 
+[Dingyi Kang's paper tasks](DINGYI_KANG_PAPER_TASKS.md): all preparation tasks assigned to Dingyi for a conditional 3–5-working-day sprint, with daily deliverables and owner-review checks. The planned submission author list adds Dingyi Kang at NextGen PlatformAI C Corp, USA; the archived PDF is unchanged.
+
 ## Public dataset
 
 [Browse the dataset](datasets/ai-level-bench-v0.4/) · [Download the public ZIP](downloads/AI_Level_Benchmark_Dataset_v0_4_public.zip) · [Read the dataset card](datasets/ai-level-bench-v0.4/DATASET_CARD.md)
