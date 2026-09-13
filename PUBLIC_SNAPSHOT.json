@@ -52,10 +52,31 @@
   ],
   "payload": {
     "papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf": {
-      "sha256": "c2a8738f25d0b98cf840b4fa55c4837c8f558bb29a4c00ce674797e684e2e9c3",
-      "bytes": 565613,
+      "sha256": "eda9c5138a157b68556729ddbfc8eb5299f364d774f1e7be6d43050c17a94aef",
+      "bytes": 551786,
       "source_path": "plan/10/AI_Level_Research_Package_v2_6_v0_3.zip",
-      "archive_member": "Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf"
+      "archive_member": "Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf",
+      "original_sha256": "c2a8738f25d0b98cf840b4fa55c4837c8f558bb29a4c00ce674797e684e2e9c3",
+      "original_bytes": 565613,
+      "amendment": {
+        "date": "2026-09-13",
+        "kind": "owner-requested author-only PDF amendment",
+        "added_author": "Dingyi Kang",
+        "affiliation": "NextGen PlatformAI C Corp, USA",
+        "author_order": ["Chengshuai Yang", "Ting Xue", "Dingyi Kang"],
+        "changes": ["title-page author line", "65 author running headers", "PDF Author metadata"],
+        "original_recovery_commit": "12331315048e1cbf35a706f80ba572be81dcdd78",
+        "reproduction_tool": "tools/amend_theory_authors.py",
+        "verification": {
+          "pages_checked": 69,
+          "unchanged_links": 265,
+          "pixel_comparison_dpi": 144,
+          "pixels_outside_author_areas": "identical",
+          "words_and_positions_outside_author_areas": "identical",
+          "addendum_pages_66_to_69": "visually unchanged"
+        },
+        "limits": "Direct PDF edit, not a LaTeX rebuild; existing contribution statement unchanged; no scientific validation or coauthor consent asserted"
+      }
     },
     "papers/AI_Level_Bench_v0_4.pdf": {
       "sha256": "36789ad4d1fa70f2a971a6af40d5378f4c44544726394822ecafd4a00da58908",

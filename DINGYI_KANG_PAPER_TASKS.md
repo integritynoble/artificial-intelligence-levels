@@ -14,21 +14,21 @@ Prepare **Unified Intelligence Theory and the Artificial Intelligence Level: A C
 
 ## Updated author list
 
-The owner has requested adding **Dingyi Kang**, affiliated with **NextGen PlatformAI C Corp, USA**, the same company named in the current PDF.
+At the owner's request, the public theory PDF now includes **Dingyi Kang**, affiliated with **NextGen PlatformAI C Corp, USA**, the same company named for the existing authors. The direct PDF amendment changes only the author line, author running headers and PDF Author metadata; scientific content and the existing contribution statement remain unchanged.
 
-Working author order for the new named draft:
+Current public-PDF author order, to confirm with all authors for the submission edition:
 
 1. Chengshuai Yang — NextGen PlatformAI C Corp, USA; retain the current corresponding-author designation unless the authors agree otherwise.
 2. Ting Xue — NextGen PlatformAI C Corp, USA.
 3. Dingyi Kang — NextGen PlatformAI C Corp, USA.
 
-Dingyi is appended to preserve the existing authors' order; confirm the final order with all three authors. This records the requested addition in the submission plan, **not an already edited PDF or completed authorship consent**. The archived v2.6 PDF still lists two authors. Update a separate editable submission edition in DK-02; do not overwrite the archived PDF.
+Dingyi is appended to preserve the existing authors' order; confirm the final order with all three authors. The public PDF addition is complete, **not authorship consent or completion of DK-02**. The [original two-author PDF](https://github.com/integritynoble/artificial-intelligence-levels/blob/12331315048e1cbf35a706f80ba572be81dcdd78/papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf) remains recoverable in Git at commit `12331315048e1cbf35a706f80ba572be81dcdd78`. Recover and synchronize a separate editable submission edition in DK-02; preserve the original and documented author-amended release baselines.
 
 Record actual contributions as work is completed, not anticipated contributions as historical facts. Each author must meet TMLR's contribution/responsibility conditions and agree to submission. The author set must be finalized before submission because TMLR does not allow subsequent additions or removals. [Editorial policies](https://jmlr.org/tmlr/editorial-policies.html)
 
 ## Starting materials and boundaries
 
-- [Original theory v2.6 PDF](papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf): the 69-page content baseline.
+- [Theory v2.6 PDF](papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf): the 69-page scientific-content baseline with the documented author-only amendment; the original two-author bytes remain available at the Git link above.
 - [TMLR submission plan](TMLR_SUBMISSION_PLAN.md): journal rationale, readiness gaps and policy checklist.
 - [Publication notes](PUBLICATION_NOTES.md): known release limitations and scorer/metadata issues.
 - [Public snapshot manifest](PUBLIC_SNAPSHOT.json): hashes and provenance; the public development dataset is not the original experiment archive.
@@ -58,7 +58,9 @@ For the **three-day stretch target**, Day 1 must recover a usable source and ana
 - [ ] Build the recovered source and compare against v2.6: all sections, equations, tables and figures accounted for. Separate original observations, reconstructed rows and missing evidence in the inventory.
 - [ ] **Completion evidence:** input inventory, build log and content map. **Day-1 gate:** if source reconstruction or unavailable central evidence threatens the deadline, send the owner a precise blocker, proposed remedy and revised estimate that day. Continue independent safe tasks.
 
-### DK-02 — Add Dingyi to the editable author record · Days 1–2
+### DK-02 — Synchronize and confirm the editable author record · Days 1–2
+
+The public PDF's author-only amendment does not recover its source, verify contributions, obtain consent or produce an anonymous TMLR build. All tasks below remain pending.
 
 - [ ] Confirm spelling, affiliation, author order and corresponding author with all authors; obtain Dingyi's own contact/profile details directly rather than inventing them.
 - [ ] Add Dingyi Kang with the company affiliation to the separate named manuscript, author metadata and any applicable running headers. Update contribution statements only with verified contributions. Prepare an anonymous review build from the same source.
@@ -104,7 +106,7 @@ For the **three-day stretch target**, Day 1 must recover a usable source and ana
 ### DK-09 — Verify the exact candidate and prepare the review packet · Day 4
 
 - [ ] Rebuild from documented inputs in a fresh working directory; rerun scoped checks and inspect every PDF page for clipped text, broken mathematics, unreadable figures and missing content. Confirm anonymous and named builds contain the same scientific content.
-- [ ] Run `python3 -B tools/verify_public_snapshot.py` to confirm the archived release remains intact. Report this as integrity verification only, separate from scientific validation.
+- [ ] Run `python3 -B tools/verify_public_snapshot.py` to confirm the published release matches its manifest, including the documented author-amended PDF. Report this as integrity verification only, separate from scientific validation or verification of the historical Git copy.
 - [ ] **Completion evidence:** the source version, PDF/ZIP SHA-256 hashes, build/test/analysis logs and a concise review packet. Include the final abstract/conclusions, substantive-change log, claim-to-evidence table and a one-page verification/limitations summary. No unresolved central scientific blocker may be marked ready.
 
 ### DK-10 — Obtain final owner and coauthor approval · Day 5

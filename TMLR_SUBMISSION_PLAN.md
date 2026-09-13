@@ -4,7 +4,7 @@ _Prepared 2026-09-13 · Status: planning only; not submission-ready or submitted
 
 ## Assigned preparation sprint and author update
 
-The owner has added **Dingyi Kang — NextGen PlatformAI C Corp, USA** to the planned author list for the separate submission edition. Working order: Chengshuai Yang, Ting Xue, Dingyi Kang, pending all-author confirmation. The archived v2.6 PDF remains unchanged; updating the editable author record and preparing an anonymous review build are assigned tasks, not completed manuscript edits.
+At the owner's request, the public v2.6 PDF now lists **Chengshuai Yang, Ting Xue and Dingyi Kang — NextGen PlatformAI C Corp, USA**. The amendment changes only the author line, author running headers and PDF Author metadata; scientific content and the existing contribution statement remain unchanged. The [original two-author PDF](https://github.com/integritynoble/artificial-intelligence-levels/blob/12331315048e1cbf35a706f80ba572be81dcdd78/papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf) is recoverable at commit `12331315048e1cbf35a706f80ba572be81dcdd78`. Final author order, verified contributions and all-author consent remain pending. Matching editable-source recovery, synchronizing its author record and preparing an anonymous review build are still assigned tasks; the PDF amendment does not complete DK-02.
 
 **Dingyi Kang owns all preparation work** in the [single 3–5-working-day task assignment](DINGYI_KANG_PAPER_TASKS.md), including verification, packaging and approval coordination. Scientific approval and each coauthor's consent remain with those authors. The accelerated target requires usable source/evidence and prompt decisions; the longer contingency estimates below still apply when those conditions fail.
 
@@ -32,7 +32,7 @@ The main dependencies are not yet closed. A PDF upload alone is not readiness fo
 
 ## Preserve the original; prepare a separate edition
 
-Keep the published v2.6 PDF and existing snapshot payloads unchanged. Prepare the editable source, submission PDF and anonymized supplement in a separate submission workspace. Reformatting will change pagination.
+Preserve the original two-author PDF in Git and retain the documented author-amended public PDF and other snapshot payloads as the current release baseline. Prepare further manuscript changes, editable source, submission PDF and anonymized supplement in a separate submission workspace. Reformatting will change pagination. See [publication notes](PUBLICATION_NOTES.md) for the author-only amendment and recovery commit.
 
 The default is to retain the title, central framework, coordinate and level definitions, mathematical development, and supported results. Do not shorten automatically to 12 pages. Moving detailed catalogs or derivations into appendices is optional, with owner approval and a section-by-section content map.
 

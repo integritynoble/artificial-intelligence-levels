@@ -12,11 +12,13 @@ This is a publication snapshot, not a complete benchmark service or an independe
 | AI-Level Bench: Measuring the Intelligence Level of Agents and Language Models in Every Coordinate | 0.4 | [Benchmark PDF](papers/AI_Level_Bench_v0_4.pdf) |
 | The AI-Level Index | 2.0, companion | [Index PDF](papers/The_AI_Level_Index_v2_0.pdf) |
 
-The theory, benchmark and dataset are the version-matched 2.6 / 0.4 / 0.4 publication bundle. The Index v2.0 is a separate companion with its own instrument studies and historical results; those results are not new measurements on this dataset snapshot. PDFs are preserved byte-for-byte, including their draft labels. Matching editable sources for the theory v2.6 and benchmark v0.4 PDFs were not found in the inspected release bundle.
+The theory, benchmark and dataset are the version-matched 2.6 / 0.4 / 0.4 publication bundle. The Index v2.0 is a separate companion with its own instrument studies and historical results; those results are not new measurements on this dataset snapshot. The benchmark and Index PDFs retain their source bytes and draft labels. The theory PDF has the author-only amendment described below; its scientific content is unchanged. Matching editable sources for the theory v2.6 and benchmark v0.4 PDFs were not found in the inspected release bundle.
+
+**Theory authors:** Chengshuai Yang, Ting Xue and Dingyi Kang — NextGen PlatformAI C Corp, USA. At the owner's request, the theory PDF's author line, author running headers and PDF Author metadata were amended on September 13, 2026. Its existing contribution statement is unchanged. The [original two-author PDF](https://github.com/integritynoble/artificial-intelligence-levels/blob/12331315048e1cbf35a706f80ba572be81dcdd78/papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf) remains recoverable in Git. This PDF amendment does not establish coauthor consent or journal-submission readiness; see [publication notes](PUBLICATION_NOTES.md).
 
 [TMLR submission plan](TMLR_SUBMISSION_PLAN.md): a no-publication-fee journal recommendation, content-preserving preparation workflow, readiness checklist and provisional 1–2-week preparation estimate. The paper has not been submitted through this plan.
 
-[Dingyi Kang's paper tasks](DINGYI_KANG_PAPER_TASKS.md): all preparation tasks assigned to Dingyi for a conditional 3–5-working-day sprint, with daily deliverables and owner-review checks. The planned submission author list adds Dingyi Kang at NextGen PlatformAI C Corp, USA; the archived PDF is unchanged.
+[Dingyi Kang's paper tasks](DINGYI_KANG_PAPER_TASKS.md): all preparation tasks assigned to Dingyi for a conditional 3–5-working-day sprint, with daily deliverables and owner-review checks. The public theory PDF now includes Dingyi; matching editable-source recovery, author confirmation, verified contribution statements and the anonymous TMLR edition remain pending.
 
 ## Public dataset
 
@@ -46,7 +48,7 @@ This checks payload hashes, JSON/JSONL parsing, record counts, Python source syn
 
 Known upstream issues are recorded in [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md), including stale version fields, overlapping benchmark-PDF version/date text and a delegation-frontier helper that does not enforce cumulative lower-band retention. Research payloads have not been silently corrected during this upload. Do not use this snapshot alone to issue an official AI-level certificate.
 
-[PUBLIC_SNAPSHOT.json](PUBLIC_SNAPSHOT.json) records the source commit, original archive hashes, exact PDF/member hashes, all exported payloads and the four exclusions. The source is [`integritynoble/sarsi-intelligence-level`](https://github.com/integritynoble/sarsi-intelligence-level) at `446a1bc7b2dfcf7ab02f664d48b1a7fc03f5b008`; its history and unrelated working files were not imported.
+[PUBLIC_SNAPSHOT.json](PUBLIC_SNAPSHOT.json) records the source commit, original archive hashes, original/current theory-PDF hashes and author-amendment provenance, exact member hashes, all exported payloads and the four exclusions. The source is [`integritynoble/sarsi-intelligence-level`](https://github.com/integritynoble/sarsi-intelligence-level) at `446a1bc7b2dfcf7ab02f664d48b1a7fc03f5b008`; its history and unrelated working files were not imported.
 
 ## Contributions and reuse
 
