@@ -14,6 +14,8 @@ This is a publication snapshot, not a complete benchmark service or an independe
 
 The theory, benchmark and dataset are the version-matched 2.6 / 0.4 / 0.4 publication bundle. The Index v2.0 is a separate companion with its own instrument studies and historical results; those results are not new measurements on this dataset snapshot. PDFs are preserved byte-for-byte, including their draft labels. Matching editable sources for the theory v2.6 and benchmark v0.4 PDFs were not found in the inspected release bundle.
 
+[TMLR submission plan](TMLR_SUBMISSION_PLAN.md): a no-publication-fee journal recommendation, content-preserving preparation workflow, readiness checklist and provisional 1–2-week preparation estimate. The paper has not been submitted through this plan.
+
 ## Public dataset
 
 [Browse the dataset](datasets/ai-level-bench-v0.4/) · [Download the public ZIP](downloads/AI_Level_Benchmark_Dataset_v0_4_public.zip) · [Read the dataset card](datasets/ai-level-bench-v0.4/DATASET_CARD.md)
