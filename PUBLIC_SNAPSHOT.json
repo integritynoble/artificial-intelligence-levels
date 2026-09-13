@@ -1,0 +1,1007 @@
+{
+  "schema": "ai-level-public-snapshot/v1",
+  "created_utc_date": "2026-09-13",
+  "source_repository": "https://github.com/integritynoble/sarsi-intelligence-level",
+  "source_commit": "446a1bc7b2dfcf7ab02f664d48b1a7fc03f5b008",
+  "publication_scope": "Public research papers and development dataset; not a hidden certification dataset or complete benchmark runtime",
+  "versions": {
+    "theory": "2.6",
+    "benchmark_paper": "0.4",
+    "public_dataset": "0.4",
+    "index_companion": "2.0"
+  },
+  "source_artifacts": {
+    "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip": {
+      "git_blob": "7b5dcba791685961935a08646557ad0c325f3218",
+      "sha256": "1b54dc3e3c1f26e229d36c4e0a27fb4b85b331e72ea3f3d4c4422ecf2d51e57d"
+    },
+    "plan/10/AI_Level_Research_Package_v2_6_v0_3.zip": {
+      "git_blob": "68d586da8c3a7314d640b591231baa58766a8f6b",
+      "sha256": "77399c2866541427411a329e86b4af9f1df93ae47a5910e0c9c6e8505c48c891"
+    },
+    "plan/10/AI_Level_Bench_v0_4.pdf": {
+      "git_blob": "187d29ae118215bbbcf7489f87d84bba4eec0e4f",
+      "sha256": "36789ad4d1fa70f2a971a6af40d5378f4c44544726394822ecafd4a00da58908"
+    },
+    "ail_index_v2/The_AI_Level_Index_v2_0.pdf": {
+      "git_blob": "f577215e85411e74172413658eeba73b75fd7151",
+      "sha256": "bf0420b47e79195910847055e5462c22b2f306dc4024199df5b1b371142acf66"
+    }
+  },
+  "excluded_members": [
+    {
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/__pycache__/ai_level_scoring.cpython-313.pyc",
+      "reason": "Compiled Python cache is not a release source artifact"
+    },
+    {
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/__pycache__/gui_scoring.cpython-313.pyc",
+      "reason": "Compiled Python cache is not a release source artifact"
+    },
+    {
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/__pycache__/harmonized_scoring.cpython-313.pyc",
+      "reason": "Compiled Python cache is not a release source artifact"
+    },
+    {
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/__pycache__/memory_scoring.cpython-313.pyc",
+      "reason": "Compiled Python cache is not a release source artifact"
+    }
+  ],
+  "payload": {
+    "papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf": {
+      "sha256": "c2a8738f25d0b98cf840b4fa55c4837c8f558bb29a4c00ce674797e684e2e9c3",
+      "bytes": 565613,
+      "source_path": "plan/10/AI_Level_Research_Package_v2_6_v0_3.zip",
+      "archive_member": "Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf"
+    },
+    "papers/AI_Level_Bench_v0_4.pdf": {
+      "sha256": "36789ad4d1fa70f2a971a6af40d5378f4c44544726394822ecafd4a00da58908",
+      "bytes": 407274,
+      "source_path": "plan/10/AI_Level_Bench_v0_4.pdf"
+    },
+    "papers/The_AI_Level_Index_v2_0.pdf": {
+      "sha256": "bf0420b47e79195910847055e5462c22b2f306dc4024199df5b1b371142acf66",
+      "bytes": 258568,
+      "source_path": "ail_index_v2/The_AI_Level_Index_v2_0.pdf"
+    },
+    "datasets/ai-level-bench-v0.4/AI_LEVEL_NAMING.md": {
+      "sha256": "441b9d203c6be4efe682c6eabee2ebe41683b642d1d882cd0786426b12f29a59",
+      "bytes": 343,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/AI_LEVEL_NAMING.md"
+    },
+    "datasets/ai-level-bench-v0.4/CHANGELOG.md": {
+      "sha256": "c5586f0d03d658c792ac9ce0ff8e251d2caeee477a74586e6e1c7d83665440c0",
+      "bytes": 1165,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/CHANGELOG.md"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/CORE/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/CORE/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/CORE/public_forms.jsonl": {
+      "sha256": "f2cd2de31f34698c74b2ba36c4be8b8f5c57ff3bb914d53e0fe53551b2115fa1",
+      "bytes": 11221,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/CORE/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/accounts_table.png": {
+      "sha256": "c15ba28a511f234fd7bbc44aa9854aa6ea2145384f170ce23a98d40a4c5275fd",
+      "bytes": 18573,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/accounts_table.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/c5_state_0.png": {
+      "sha256": "57aeebcd7dafb0c0962c82ca395e7c9b209de04ec420a25980025930ae19e82c",
+      "bytes": 11537,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/c5_state_0.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/c5_state_1.png": {
+      "sha256": "60d1597ae9c50ae71982ffc9ba7ca4062a3790c5e68068ad3e57ce85a4a3e654",
+      "bytes": 11543,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/c5_state_1.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/c5_state_2.png": {
+      "sha256": "11d09e834c6ea3eb77acda3132d2c764696a099d92dadbe821ba3d45491b21a5",
+      "bytes": 10607,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/c5_state_2.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/expert_console.png": {
+      "sha256": "c60cd0554bf151dcde0c413098c0bfdc9e72de07aa8744edc11364d2bf3396ad",
+      "bytes": 24599,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/expert_console.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/gp0_status.png": {
+      "sha256": "1c9014f513d01f20b61d0d947523a1349f86a53f2a5a5479cc84b697416e4fce",
+      "bytes": 13475,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/gp0_status.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/login_screen.png": {
+      "sha256": "6cea192440257a563a4e15d0ce777be5338462b782486290230b2c7d8eeb379f",
+      "bytes": 14938,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/login_screen.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/novel_layout.png": {
+      "sha256": "d2467192a8347c8ae4d9aa4672cb8b507cedaf461086ab6870da0b66a64b9f99",
+      "bytes": 19175,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/novel_layout.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/records_export.png": {
+      "sha256": "e52b13b6f1078257c03c424e51618a522145c467b68f4b299073e572e93631f5",
+      "bytes": 18146,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/records_export.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/science_dashboard.png": {
+      "sha256": "eca454e48f77ffe99b887435d8ce9b57d57883e5bdd242219654a77ef76ce45c",
+      "bytes": 21235,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/science_dashboard.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/settings_state.png": {
+      "sha256": "ea367c4624cb05714af6e2d8e9a24b2e056224ad61e98d10353243202d518d43",
+      "bytes": 20306,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/settings_state.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/upload_after.png": {
+      "sha256": "0ef094482b51f5fefc197897d19c2dc652246c858ebb740b8e2396e5db582a25",
+      "bytes": 13263,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/upload_after.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/assets/upload_before.png": {
+      "sha256": "d0a85ce5731254c2e5304546ce8d3de7dcbc8d52e582e8d69444e096aa617809",
+      "bytes": 10362,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/assets/upload_before.png"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/control_contract.json": {
+      "sha256": "48f0d6fec5835f31494814b638797048e6b1f968c118d11e864469df2f5f53c9",
+      "bytes": 501,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/control_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/difficulty_grid.json": {
+      "sha256": "0432d3b125b27d9800c58e31b5678a842d8760b8a8c5e74622631982ed023f2e",
+      "bytes": 586,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/metric_contract.json": {
+      "sha256": "4b7f9bb0ce12acb943d5801786721cb142e77f0ccf22ee053ef106304ad21f27",
+      "bytes": 644,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/public_forms.jsonl": {
+      "sha256": "1bfcb99657a4d9d56702a2eec324c361473768d00b6a62d03accbf29c5abaee3",
+      "bytes": 16633,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/accounts_table.json": {
+      "sha256": "1e48a5413df0cdb3fa3c79cf780d4c3bbab89d496fb50260e0ba5eadc898c9af",
+      "bytes": 2699,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/accounts_table.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/c5_state_0.json": {
+      "sha256": "456f30c7229e1d757dfc17eb8e45dcd48afd5cea93376f83c342f77aee0e6487",
+      "bytes": 656,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/c5_state_0.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/c5_state_1.json": {
+      "sha256": "77834a3ebc1ad1af911d5b63919b6663fd1285cad2f653dbaf4b2844b957d360",
+      "bytes": 654,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/c5_state_1.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/c5_state_2.json": {
+      "sha256": "8cbb0a31a1e1c32b4d48e63aceb86b2f36d7295eb5b7f64e12b036c72451b3ab",
+      "bytes": 651,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/c5_state_2.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/expert_console.json": {
+      "sha256": "bf9f86b6f145b668ca9aea446c189f7cac14f700998947a3e58bfd7e83e2e535",
+      "bytes": 867,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/expert_console.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/gp0_status.json": {
+      "sha256": "b8bd04b2692f0d544e9bbf968dc07bc53b2b1c632aeda9281e8fe1cff5c289b9",
+      "bytes": 532,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/gp0_status.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/login_screen.json": {
+      "sha256": "abdca399a2790419e3fa012da0284577995f2a9a38a279a651f90d3afa06b912",
+      "bytes": 930,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/login_screen.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/novel_layout.json": {
+      "sha256": "5700719436fc3cee3bef95c6191491abbecc1557ebda82e2382c1ce3cc5e9aee",
+      "bytes": 734,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/novel_layout.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/records_export.json": {
+      "sha256": "d91dbb5c2acecceeff65fbf3f7c77e9a52c31df721be490a62149663919caf40",
+      "bytes": 734,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/records_export.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/science_dashboard.json": {
+      "sha256": "9667f3bdcbc822b402568a7f246029de9ecf34226447aed7f020b9e2842ab734",
+      "bytes": 893,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/science_dashboard.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/settings_state.json": {
+      "sha256": "edfdabbc733f5c19b349b81cf5fc06f8e5963a200550909c88aba1f2beee77d9",
+      "bytes": 681,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/settings_state.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/upload_after.json": {
+      "sha256": "76a177b57de7da5001e1f9a372ed13b2012639203e908abc3725792ca7e69eff",
+      "bytes": 821,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/upload_after.json"
+    },
+    "datasets/ai-level-bench-v0.4/C_Bench/GUI_SCREEN/screen_graphs/upload_before.json": {
+      "sha256": "df2da614d1a9997bc84eee561434a1029296f84de50e4a541211cdf406abc11b",
+      "bytes": 612,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/C_Bench/GUI_SCREEN/screen_graphs/upload_before.json"
+    },
+    "datasets/ai-level-bench-v0.4/DATASET_CARD.md": {
+      "sha256": "a23e12bdb5a47012b3e8c026de86edefbbba700d110016cdceabca3aba8be3e8",
+      "bytes": 2329,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DATASET_CARD.md"
+    },
+    "datasets/ai-level-bench-v0.4/DI_Bench/H_Bands/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DI_Bench/H_Bands/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/DI_Bench/H_Bands/public_forms.jsonl": {
+      "sha256": "703567f544fbf3b36ff4a5b810b85450c72ba647fe244a13fef99ef604fd419b",
+      "bytes": 8133,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DI_Bench/H_Bands/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/DI_Bench/Surface/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DI_Bench/Surface/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/DI_Bench/Surface/public_forms.jsonl": {
+      "sha256": "0ab457d05e946fdf606489601974c6980c35c0fbd5fd25b3981566c8e78c6705",
+      "bytes": 1461,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DI_Bench/Surface/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/DI_Bench/T_Bands/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DI_Bench/T_Bands/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/DI_Bench/T_Bands/public_forms.jsonl": {
+      "sha256": "1fffde31f2a3ecb2cc29a563926da732623b9f3154bcb3de84311c21d8594763",
+      "bytes": 11817,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/DI_Bench/T_Bands/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/HG_Bench/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/HG_Bench/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/HG_Bench/public_forms.jsonl": {
+      "sha256": "8504741045493acb1b1375a861921c979f147dfa622de550057cf0591ac8055e",
+      "bytes": 12821,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/HG_Bench/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M0_EPH/difficulty_grid.json": {
+      "sha256": "a4a623fdd64eb921e91613c61955da4546202473abbb4aafacfe73c7fbe7bba8",
+      "bytes": 401,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M0_EPH/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M0_EPH/metric_contract.json": {
+      "sha256": "e43928f7daa9e45768681cf6b77e0171ae48f3b3b8944f6ff5d2bff944bf8071",
+      "bytes": 674,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M0_EPH/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M0_EPH/public_forms.jsonl": {
+      "sha256": "796ab763042582d5b3abcaf80820b3b3e13541bbd5401d0fdc2c1b5c7c708183",
+      "bytes": 9145,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M0_EPH/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M1_RST/difficulty_grid.json": {
+      "sha256": "22c628a34772e249e30345571c1159f8d5606780aec0a5b011b490538c8b3b3d",
+      "bytes": 551,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M1_RST/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M1_RST/metric_contract.json": {
+      "sha256": "2bf9b428326210d8dde56a7da4f48d18c489d38e9b61439a0c2ca52b473e7baf",
+      "bytes": 716,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M1_RST/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M1_RST/public_forms.jsonl": {
+      "sha256": "176997eff1e2894fa9594e5447c3ad8703341c19bea8bac44cdd7e4e4ef486ec",
+      "bytes": 10076,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M1_RST/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M2_PROV/difficulty_grid.json": {
+      "sha256": "92e06a0ab6b64f0b84d4ffd2d16966e26db2e31fea91c7d198502985300289b5",
+      "bytes": 626,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M2_PROV/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M2_PROV/metric_contract.json": {
+      "sha256": "129ebd061da962e7cc4c128675447abe43ceada81af126ff82c080bf7b218abe",
+      "bytes": 893,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M2_PROV/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M2_PROV/public_forms.jsonl": {
+      "sha256": "65ccd8e405e60da0b367edea6ca7c7e18de0f6930e84442513ff0113d9ff181f",
+      "bytes": 11243,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M2_PROV/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M3_CONSOL/difficulty_grid.json": {
+      "sha256": "7774c537d0c11e4bac1bb760ce35c7e3ff06a8b6f3fca5cd9dedce7a00ce03ec",
+      "bytes": 651,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M3_CONSOL/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M3_CONSOL/metric_contract.json": {
+      "sha256": "04c63004c1686091537bc253bb881e8c3df9acaffad160cb32796515ee26ce26",
+      "bytes": 883,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M3_CONSOL/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M3_CONSOL/public_forms.jsonl": {
+      "sha256": "fe2c7fa5b0f553a05673b1a6e1c5d6a68b6078d0e5c87c84af8a57afab072f79",
+      "bytes": 12353,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M3_CONSOL/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M4_MGMT/difficulty_grid.json": {
+      "sha256": "1647f5fa6398eab43cd092940b053ffd729bab8cd7f59d75facf76c2ce8c7aac",
+      "bytes": 634,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M4_MGMT/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M4_MGMT/metric_contract.json": {
+      "sha256": "476a29fdef73654d214f202254dc485fcad986f8179e05159afcf3f5c034bcb0",
+      "bytes": 966,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M4_MGMT/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M4_MGMT/public_forms.jsonl": {
+      "sha256": "2dd18a57bbce7e872b5d03f9c32a44b62de8c724791e341631128cf6d4be769a",
+      "bytes": 12940,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M4_MGMT/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M5_LONG/difficulty_grid.json": {
+      "sha256": "4b3279efadec360b111baa6702c9c331e5d0ae0bd6ba2514a3f3e68a03a711a7",
+      "bytes": 614,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M5_LONG/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M5_LONG/metric_contract.json": {
+      "sha256": "ecf25e57bb2afe986b58898485d4ae5d6558f50ea8c3e395b23ced423125a1ad",
+      "bytes": 942,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M5_LONG/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/M5_LONG/public_forms.jsonl": {
+      "sha256": "4226af43bffe2fc6c91535a1e433ef606dc9ffabd54631e2e8887d02aa5992ad",
+      "bytes": 13729,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/M5_LONG/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/MOMEGA_EVOLVE/difficulty_grid.json": {
+      "sha256": "afe18d57524f2ca85bfb7eb918f024b94b051ff35291835f8d7ff8b95beb2522",
+      "bytes": 696,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/MOMEGA_EVOLVE/difficulty_grid.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/MOMEGA_EVOLVE/interface_contract.json": {
+      "sha256": "7a48553d551a6fcb3cdfad874230ffc1aaf413ca16b349d311fa7557b0d2dc92",
+      "bytes": 1636,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/MOMEGA_EVOLVE/interface_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/MOMEGA_EVOLVE/metric_contract.json": {
+      "sha256": "e2e88334870ca5d5a84b0cd412d4092af58a443462381e87f0c87b6a82b712f9",
+      "bytes": 1154,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/MOMEGA_EVOLVE/metric_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/MOMEGA_EVOLVE/permission_contract.json": {
+      "sha256": "89ead580a84030123a81046c0dd478f72d815266f7a1408ddd117ec30ff98e8b",
+      "bytes": 671,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/MOMEGA_EVOLVE/permission_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/M_Bench/MOMEGA_EVOLVE/public_forms.jsonl": {
+      "sha256": "cde7248c7bd8debd8d861cb5e0aeb2f6400d731b94e822765c271314c2279aa4",
+      "bytes": 15433,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/M_Bench/MOMEGA_EVOLVE/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/O_Bench/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/O_Bench/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/O_Bench/public_forms.jsonl": {
+      "sha256": "a9431db91857803350c14ea0039a6f0a61ea3f6615705b855abaf09b8dc90d31",
+      "bytes": 9918,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/O_Bench/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/README.md": {
+      "sha256": "7fa59071c3bae0a3a4566f3cd4e40877a5fc2a0ab3838d750405157edffda458",
+      "bytes": 2458,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/README.md"
+    },
+    "datasets/ai-level-bench-v0.4/SA_Bench/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/SA_Bench/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/SA_Bench/public_forms.jsonl": {
+      "sha256": "e3600af76d860643d7083918ac2fbb860ef5a44e05d78d340aab86596da850b6",
+      "bytes": 12260,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/SA_Bench/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/U_Bench/method_contract.json": {
+      "sha256": "fcd649261d06558c288477255f5d087a54c44c3cb0754fa5bb96a4afe8ffa8e4",
+      "bytes": 466,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/U_Bench/method_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/U_Bench/public_forms.jsonl": {
+      "sha256": "1deabd034314149e4cce734ecbf01fbbed6daaa6ed7edbd1760ecf0fddfa09fa",
+      "bytes": 13545,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/U_Bench/public_forms.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/ai_level_bench_public_dev_combined.jsonl": {
+      "sha256": "e8100aa7c8b6324e1a35bed669ce5582426646c7f33ecf48cc9d5f28106848c7",
+      "bytes": 233519,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/ai_level_bench_public_dev_combined.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/canonical_method_catalog.jsonl": {
+      "sha256": "4e7cd66ce8f1b39a2fefd81259fb4b40741176300e2a297f9efaf4e345b425b6",
+      "bytes": 226972,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/canonical_method_catalog.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/cognitive_domain_panel.json": {
+      "sha256": "6b304236b8696eaa5669805087310092635af20cabb56fa708b18e1cc42cb8ae",
+      "bytes": 769,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/cognitive_domain_panel.json"
+    },
+    "datasets/ai-level-bench-v0.4/coverage.csv": {
+      "sha256": "278caa98fe165c838f03068c40298b41ba69222446de8585c3827fa6980d4b2b",
+      "bytes": 8389,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/coverage.csv"
+    },
+    "datasets/ai-level-bench-v0.4/cumulative_policy.json": {
+      "sha256": "ff2a31d2fb3f6365e39283df7e514ea4776c82f1ee6c3f4f09fd9a819e62f164",
+      "bytes": 3883,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/cumulative_policy.json"
+    },
+    "datasets/ai-level-bench-v0.4/dataset_card.json": {
+      "sha256": "1c245447f7d673b6a25e9a1bc6317a62cf587175f46b463e0d5351b6db709d1e",
+      "bytes": 517,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/dataset_card.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/gui_failure_attribution.example.json": {
+      "sha256": "70f936a13a117cb4f9cdd7eb655a424d878a230148bf771a6390eb41d68c2279",
+      "bytes": 544,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/gui_failure_attribution.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/gui_perception_result.example.json": {
+      "sha256": "eba93b3eb2c4fafe4c56c2f471c0d14d81e2686fed981af6efa2ff74dc4dfa7f",
+      "bytes": 449,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/gui_perception_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/i3_result.example.json": {
+      "sha256": "7eb54383b184428cca28393f15a5f6b318a4389d2c1bbe96af47b772cc7aef20",
+      "bytes": 842,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/i3_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/i4_result.example.json": {
+      "sha256": "da142528459ec7f90514ccbfa834c1b664ffaf61c908020b800e31e0fe575204",
+      "bytes": 1248,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/i4_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/i5_result.example.json": {
+      "sha256": "29a520996ed7ef2eafd306b3f167a2c13a884bce794f3c0e4605b27d171e1400",
+      "bytes": 780,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/i5_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/iomega_result.example.json": {
+      "sha256": "837240d6d0d78710e2c62b73ccb1dbcffc8b1232bfeb15360ae608a88743eda0",
+      "bytes": 1341,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/iomega_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m0_ephemeral_result.example.json": {
+      "sha256": "8df7caba85b9c36ea75fe35202f3b7cce8354e10ffbb260a759f578d6243880c",
+      "bytes": 1032,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m0_ephemeral_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m1_persistent_result.example.json": {
+      "sha256": "23f6a39aec8a36e9144edaf3f852eaef6a8efbb52f8f48345517d57347d2a98e",
+      "bytes": 1125,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m1_persistent_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m2_episodic_result.example.json": {
+      "sha256": "3f3e82946cbf9a7ea064daf680272f11483cc8107e17dcea4510c288a13fe36e",
+      "bytes": 1303,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m2_episodic_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m3_consolidating_result.example.json": {
+      "sha256": "199594a3072bf0252b72bfeb4d9529bcc659177233058af6b8c55c05c5627221",
+      "bytes": 1336,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m3_consolidating_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m4_management_result.example.json": {
+      "sha256": "bef97a159c4a6a857e56f639f07fbabeb532b643a24340fec7baa8d1a01dd605",
+      "bytes": 1395,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m4_management_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m5_longitudinal_result.example.json": {
+      "sha256": "39b3390e146b12ebf87e979b53501addc511c5d6b2bfed6bebe617c7cb7fe819",
+      "bytes": 1386,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m5_longitudinal_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/m5_lower_retention_failure.example.json": {
+      "sha256": "11287bb5824db98570e592733f7f0cecdf135cbfa8e458ad58b401f4bda698be",
+      "bytes": 1148,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/m5_lower_retention_failure.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/memory_manifest.example.json": {
+      "sha256": "c8b8636f1c1baefa23b4a49114a52323db19391860d81c29b3c66071a5e9439b",
+      "bytes": 910,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/memory_manifest.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/memory_result.example.json": {
+      "sha256": "fe4e260d23319589f4722c6ed24feeea9c73f8f4d315f7bb2ba0c5c86de926f8",
+      "bytes": 796,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/memory_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/momega_evolving_result.example.json": {
+      "sha256": "e2d0b2fe2c21f9cbeee94a71e3040ca9b7ada2f22e24c38ac0cfee575e2f6f9f",
+      "bytes": 1673,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/momega_evolving_result.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/momega_telemetry.example.json": {
+      "sha256": "d196d4d44e122dbd8b2733f3f090772cf7a4e73aeb451fd5be6cba8c11338a66",
+      "bytes": 578,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/momega_telemetry.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/phi_candidate.example.json": {
+      "sha256": "c4b20fcd64e4a8d5ccc56db50c37150c68651025986c40ab4efdb1bdaac8342f",
+      "bytes": 423,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/phi_candidate.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/psi_manifest.example.json": {
+      "sha256": "3b487334105aefd790715c14187760ccc6a17196b6ec9eb4b680b3ebd07752c5",
+      "bytes": 455,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/psi_manifest.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/examples/theta_manifest.example.json": {
+      "sha256": "3acf35e35e8ca19c03988bf4c8f563580f5ef5a75259c85b7a14cb785972e4c2",
+      "bytes": 792,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/examples/theta_manifest.example.json"
+    },
+    "datasets/ai-level-bench-v0.4/file_inventory.txt": {
+      "sha256": "af4e6cacb8abe0e8d511062e34484d908ba52280bf456b6d6bd6df2aa1dfe85a",
+      "bytes": 5618,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/file_inventory.txt"
+    },
+    "datasets/ai-level-bench-v0.4/gui_perception_lattice.json": {
+      "sha256": "7a23391494165bd0225db330d886404192d63d2088371b766394bf3ffbe21e2c",
+      "bytes": 6176,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/gui_perception_lattice.json"
+    },
+    "datasets/ai-level-bench-v0.4/level_benchmark_matrix.jsonl": {
+      "sha256": "17d346a1ca3a0a990107ddcad7363367adfca55fe73b4dc57993e5ff6a10114e",
+      "bytes": 109624,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/level_benchmark_matrix.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/manifest.json": {
+      "sha256": "f9271e9a1cd8eae9929557fc397bfa9cd0efb458b23e02e8bded3881584d47d0",
+      "bytes": 6997,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/manifest.json"
+    },
+    "datasets/ai-level-bench-v0.4/memory_level_lattice.json": {
+      "sha256": "39936ba9f6472275e34b130d80671631ee302b5def8ff4d900d108eeb4f66425",
+      "bytes": 6817,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/memory_level_lattice.json"
+    },
+    "datasets/ai-level-bench-v0.4/method_style_contract.json": {
+      "sha256": "e2a9397bd20773ff59d701376bbf3c199755ef5feb7373fec409ee43e3e14a35",
+      "bytes": 3206,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/method_style_contract.json"
+    },
+    "datasets/ai-level-bench-v0.4/public/cognitive.jsonl": {
+      "sha256": "f2cd2de31f34698c74b2ba36c4be8b8f5c57ff3bb914d53e0fe53551b2115fa1",
+      "bytes": 11221,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/cognitive.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/delegation.jsonl": {
+      "sha256": "0ab457d05e946fdf606489601974c6980c35c0fbd5fd25b3981566c8e78c6705",
+      "bytes": 1461,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/delegation.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/gui_screen.jsonl": {
+      "sha256": "1bfcb99657a4d9d56702a2eec324c361473768d00b6a62d03accbf29c5abaee3",
+      "bytes": 16633,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/gui_screen.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/harness_generation.jsonl": {
+      "sha256": "8504741045493acb1b1375a861921c979f147dfa622de550057cf0591ac8055e",
+      "bytes": 12821,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/harness_generation.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/human_intervention.jsonl": {
+      "sha256": "703567f544fbf3b36ff4a5b810b85450c72ba647fe244a13fef99ef604fd419b",
+      "bytes": 8133,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/human_intervention.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i0_transient.jsonl": {
+      "sha256": "1cec7ddf6ac0d2da5b2166a87e4736cf4624fa9601883439a95a7d2a704689d4",
+      "bytes": 1662,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i0_transient.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i1_rst.jsonl": {
+      "sha256": "9d64149f923352e73893868020c01cea9c6986b70d2a6a17626661204fafdcc1",
+      "bytes": 2602,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i1_rst.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i2_xfer.jsonl": {
+      "sha256": "1d12ea5fc1b8fdfa2df6651d35acd56d47cf1e8fbe91ef1fa50575b82ebf8b44",
+      "bytes": 3015,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i2_xfer.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i3_theta.jsonl": {
+      "sha256": "25b06c530fbc0caddc7b06ebadc91b212e452b7831b225897c5eaa41f927a51f",
+      "bytes": 18854,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i3_theta.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i4_psi.jsonl": {
+      "sha256": "cd2d3ecb58459bc61884e78559e0317ac796cef85aaf4561e8d2a0ac32ac84f8",
+      "bytes": 6361,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i4_psi.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i4_recursive_depth.jsonl": {
+      "sha256": "d314799e10a66331c2feafddd3d771ece53e506748d622b1a0c6ea50d49ae6d6",
+      "bytes": 3139,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i4_recursive_depth.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/i5_disc.jsonl": {
+      "sha256": "ae28fd4e22642444331400deb4cf44250f52e11c051bb78aad533c8d578dfc68",
+      "bytes": 8763,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/i5_disc.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/iomega_long.jsonl": {
+      "sha256": "633d851289461fe006e1919c8cd14d27ec9b16792b614e3a2299efdd8aee49a1",
+      "bytes": 6395,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/iomega_long.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/m0_ephemeral.jsonl": {
+      "sha256": "796ab763042582d5b3abcaf80820b3b3e13541bbd5401d0fdc2c1b5c7c708183",
+      "bytes": 9145,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/m0_ephemeral.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/m1_persistent.jsonl": {
+      "sha256": "176997eff1e2894fa9594e5447c3ad8703341c19bea8bac44cdd7e4e4ef486ec",
+      "bytes": 10076,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/m1_persistent.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/m2_episodic.jsonl": {
+      "sha256": "65ccd8e405e60da0b367edea6ca7c7e18de0f6930e84442513ff0113d9ff181f",
+      "bytes": 11243,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/m2_episodic.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/m3_consolidating.jsonl": {
+      "sha256": "fe2c7fa5b0f553a05673b1a6e1c5d6a68b6078d0e5c87c84af8a57afab072f79",
+      "bytes": 12353,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/m3_consolidating.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/m4_management.jsonl": {
+      "sha256": "2dd18a57bbce7e872b5d03f9c32a44b62de8c724791e341631128cf6d4be769a",
+      "bytes": 12940,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/m4_management.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/m5_longitudinal.jsonl": {
+      "sha256": "4226af43bffe2fc6c91535a1e433ef606dc9ffabd54631e2e8887d02aa5992ad",
+      "bytes": 13729,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/m5_longitudinal.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/momega_evolving.jsonl": {
+      "sha256": "cde7248c7bd8debd8d861cb5e0aeb2f6400d731b94e822765c271314c2279aa4",
+      "bytes": 15433,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/momega_evolving.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/organization.jsonl": {
+      "sha256": "a9431db91857803350c14ea0039a6f0a61ea3f6615705b855abaf09b8dc90d31",
+      "bytes": 9918,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/organization.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/self_awareness.jsonl": {
+      "sha256": "e3600af76d860643d7083918ac2fbb860ef5a44e05d78d340aab86596da850b6",
+      "bytes": 12260,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/self_awareness.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/task_difficulty.jsonl": {
+      "sha256": "1fffde31f2a3ecb2cc29a563926da732623b9f3154bcb3de84311c21d8594763",
+      "bytes": 11817,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/task_difficulty.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/public/unified.jsonl": {
+      "sha256": "1deabd034314149e4cce734ecbf01fbbed6daaa6ed7edbd1760ecf0fddfa09fa",
+      "bytes": 13545,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/public/unified.jsonl"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/common.schema.json": {
+      "sha256": "68e161320b3ec5d6a87810f4bb3ae19587007ea07a5b9a19cba6463fa3b55d40",
+      "bytes": 932,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/common.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/cumulative_policy.schema.json": {
+      "sha256": "aeca057e6e614dde55c70c83aa29667360a471d051680f2f3fb5a21f0906c17c",
+      "bytes": 452,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/cumulative_policy.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/gui_result.schema.json": {
+      "sha256": "29f0cc1daa3f0405af0c19ff2496770bfef64154eb6c97195518835aafedde68",
+      "bytes": 1053,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/gui_result.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/gui_screen.schema.json": {
+      "sha256": "4c62001463a4ecc6f06be02653859beb5312c65ae53ef9472386d98f893c0e16",
+      "bytes": 3344,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/gui_screen.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/harmonized_method.schema.json": {
+      "sha256": "0f4df316b958032a613ee938295753fe781b5da6fd891e2369cdc00be0b2241b",
+      "bytes": 1615,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/harmonized_method.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/i3_theta.schema.json": {
+      "sha256": "e7c99998a4a31d09cdc8fdd0ed27be648ca726568d97e815f64537b25f8cbd9d",
+      "bytes": 352,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/i3_theta.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/i4_psi.schema.json": {
+      "sha256": "0370959e97f7d01b5402637225296f3e805ef8bafa5626c71c1972fa30ac7b58",
+      "bytes": 649,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/i4_psi.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/i5_disc.schema.json": {
+      "sha256": "6f07d042a193a90a60ddb70127090bd3ddd4521e8fe373920b465b3014b76b4a",
+      "bytes": 996,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/i5_disc.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/iomega_long.schema.json": {
+      "sha256": "990e02deb4e794d25224df4c7bb9c45391914101bf91b42bd8402d1b0df2ad13",
+      "bytes": 979,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/iomega_long.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/level_benchmark_matrix.schema.json": {
+      "sha256": "387f858a4f949208bce3d0ccde6e40d654fd8ad337978150e882c819674a203f",
+      "bytes": 1879,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/level_benchmark_matrix.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/memory_bench.schema.json": {
+      "sha256": "6c21a89660123c59ffacb5c01bf49d9c0c5921450de1b7939c884afb24fe9b77",
+      "bytes": 1101,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/memory_bench.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/memory_bench_v2.schema.json": {
+      "sha256": "2f87446f62e2dd3be41ee9912c4dee095365b0fd0261614fafbab9be5730e707",
+      "bytes": 2349,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/memory_bench_v2.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/memory_level_lattice.schema.json": {
+      "sha256": "f0917689e948c37cc270ce214aa8428f2420d69d822f1ea41f9e5de80c42d9d6",
+      "bytes": 856,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/memory_level_lattice.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/memory_manifest.schema.json": {
+      "sha256": "78b99c6221a9de9d0025c4592429f141e218ce6a946fdd90441e58ab4597e8c9",
+      "bytes": 1143,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/memory_manifest.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/memory_result.schema.json": {
+      "sha256": "00d6296d48f69cb42224af66e0818441824a722ba8bfa63747fb0c155ccab158",
+      "bytes": 1964,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/memory_result.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/memory_telemetry_event.schema.json": {
+      "sha256": "b854a098dcc1fa89cb78dd877d6dc5b3adff9688eafdbd3e8a59ffd3bdb12890",
+      "bytes": 1219,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/memory_telemetry_event.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/phi_candidate.schema.json": {
+      "sha256": "6d2756951c321900a64f248915fe365b2d28042935e1b709ef106c2245b08332",
+      "bytes": 1022,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/phi_candidate.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/phi_interface.schema.json": {
+      "sha256": "2ce53d3bb0931452b262456a39853ce489b3326f6eaccff1d923fc98fea309a3",
+      "bytes": 854,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/phi_interface.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/psi_manifest.schema.json": {
+      "sha256": "27e80d463d14c8584b7707a3ad9521384ef5b72b77d7f78b18161e0d73a8f480",
+      "bytes": 960,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/psi_manifest.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/schemas/theta_manifest.schema.json": {
+      "sha256": "e5362903c982513454b61b913e02620f24924dd3bbc9ef14ce5d356acffb96f4",
+      "bytes": 1088,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/schemas/theta_manifest.schema.json"
+    },
+    "datasets/ai-level-bench-v0.4/spec_only/upper_levels.json": {
+      "sha256": "988fc327d82b51958ccbd353b7cd7dec9d7868d1501671588b47324fa8dc451c",
+      "bytes": 2101,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/spec_only/upper_levels.json"
+    },
+    "datasets/ai-level-bench-v0.4/validation_report.json": {
+      "sha256": "f375119f560d5898e7f18b45d101497b54ea669238fa3b403d4781a2ac75e94d",
+      "bytes": 499,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/validation_report.json"
+    },
+    "datasets/ai-level-bench-v0.4/verifiers/ai_level_scoring.py": {
+      "sha256": "3f76475b731353b8047c6efa63aeb092bc9ad45f50b5a59e22c4003cf1416e29",
+      "bytes": 6905,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/ai_level_scoring.py"
+    },
+    "datasets/ai-level-bench-v0.4/verifiers/gui_scoring.py": {
+      "sha256": "01eb2e2dd22ceef486f1e9ae96960d186d93614942ac7d899f25785b0fb2a7d3",
+      "bytes": 1232,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/gui_scoring.py"
+    },
+    "datasets/ai-level-bench-v0.4/verifiers/harmonized_scoring.py": {
+      "sha256": "aa487f3c7fc36871f750d8f90c3ba1b21fad170408e724a70b1cde3878007f94",
+      "bytes": 1086,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/harmonized_scoring.py"
+    },
+    "datasets/ai-level-bench-v0.4/verifiers/memory_scoring.py": {
+      "sha256": "51837d03ab37eb5ed0f63e54aec00d1257191008b3738f440a6c02b2b45d053a",
+      "bytes": 2791,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "archive_member": "AI_Level_Benchmark_Dataset_v0_4_complete/verifiers/memory_scoring.py"
+    },
+    "downloads/AI_Level_Benchmark_Dataset_v0_4_public.zip": {
+      "sha256": "594a8a99c2d5edd61367a271a995d2f4d3c92fd09471aa33abc98ebdc2302bbe",
+      "bytes": 377419,
+      "source_path": "plan/10/AI_Level_Benchmark_Dataset_v0_4_complete.zip",
+      "transformation": "Repacked the 155 exported members, excluding 4 bytecode files; archive root renamed"
+    }
+  }
+}

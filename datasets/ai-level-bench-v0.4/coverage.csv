@@ -1,0 +1,83 @@
+coordinate,level,canonical_method,testing_benchmark,binding_status,cumulative_type,explicit_method_complete
+C,C0,C0-ATOM,C0-ATOM canonical benchmark family,development-bound,hard_capability,true
+C,C1,C1-CTX,C1-CTX canonical benchmark family,development-bound,hard_capability,true
+C,C2,C2-COMP,C2-COMP canonical benchmark family,development-bound,hard_capability,true
+C,C3,C3-STRAT,C3-STRAT canonical benchmark family,development-bound,hard_capability,true
+C,C4,C4-EXPERT,C4-EXPERT canonical benchmark family,development-bound,hard_capability,true
+C,C5,C5-DISC,C5-DISC canonical benchmark family,development-bound,hard_capability,true
+C,C6,C6-XDOM,C6-XDOM canonical benchmark family,specification-only,hard_capability,true
+C,CΩ,COMEGA-REACH,COMEGA-REACH canonical benchmark family,specification-only,hard_capability,true
+C^GUI,C^GUI_0,C0-GUI-ATOM,C^GUI_0 GUI-grounded cognitive benchmark,development-bound,hard_capability_domain_witness,true
+C^GUI,C^GUI_1,C1-GUI-CTX,C^GUI_1 GUI-grounded cognitive benchmark,development-bound,hard_capability_domain_witness,true
+C^GUI,C^GUI_2,C2-GUI-COMP,C^GUI_2 GUI-grounded cognitive benchmark,development-bound,hard_capability_domain_witness,true
+C^GUI,C^GUI_3,C3-GUI-STRAT,C^GUI_3 GUI-grounded cognitive benchmark,development-bound,hard_capability_domain_witness,true
+C^GUI,C^GUI_4,C4-GUI-EXPERT,C^GUI_4 GUI-grounded cognitive benchmark,development-bound,hard_capability_domain_witness,true
+C^GUI,C^GUI_5,C5-GUI-DISC,C^GUI_5 GUI-grounded cognitive benchmark,development-bound,hard_capability_domain_witness,true
+C^GUI,C^GUI_6,C6-GUI-XDOM,C^GUI_6 GUI-grounded cognitive benchmark,specification-only,hard_capability_domain_witness,true
+C^GUI,C^GUI_Ω,COMEGA-GUI-REACH,C^GUI_Ω GUI-grounded cognitive benchmark,specification-only,hard_capability_domain_witness,true
+GP,GP0,GP0-PIXEL,GP0-PIXEL canonical benchmark family,development-bound,cumulative_diagnostic,true
+GP,GP1,GP1-ELEMENT,GP1-ELEMENT canonical benchmark family,development-bound,cumulative_diagnostic,true
+GP,GP2,GP2-GROUND,GP2-GROUND canonical benchmark family,development-bound,cumulative_diagnostic,true
+GP,GP3,GP3-STATE,GP3-STATE canonical benchmark family,development-bound,cumulative_diagnostic,true
+GP,GP4,GP4-DYNAMIC,GP4-DYNAMIC canonical benchmark family,development-bound,cumulative_diagnostic,true
+GP,GP5,GP5-NOVEL,GP5-NOVEL canonical benchmark family,development-bound,cumulative_diagnostic,true
+I,I0,I0-TRANSIENT,I0-Transient Current-Episode Benchmark,development-bound,hard_capability,true
+I,I1,I1-RST,I1-RST Persistent-Continuity Benchmark,development-bound,hard_capability,true
+I,I2,I2-XFER,I2-XFER Fixed-Mechanism Learning Transfer Benchmark,development-bound,hard_capability,true
+I,I3,I3-THETA,I3-THETA Governed Self-Improvement Campaign,specification-only,hard_capability,true
+I,I4,I4-PSI,I4-PSI Recursive Meta-Improvement Campaign,specification-only,hard_capability,true
+I,I5,I5-DISC,I5-DISC Persistent Discovery and Incorporation Campaign,specification-only,hard_capability,true
+I,IΩ,IOMEGA-LONG,I-OMEGA-LONG Reachability Expansion Program,specification-only,hard_capability,true
+M,M0,M0-EPH,M0-EPH Ephemeral Working-State Benchmark,development-bound,hard_capability,true
+M,M1,M1-RST,M1-RST Durable Persistence Benchmark,development-bound,hard_capability,true
+M,M2,M2-PROV,M2-PROV Episodic Provenance and Supersession Benchmark,development-bound,hard_capability,true
+M,M3,M3-CONSOL,M3-CONSOL Consolidation Benchmark,development-bound,hard_capability,true
+M,M4,M4-MGMT,M4-MGMT Memory Self-Management Benchmark,development-bound,hard_capability,true
+M,M5,M5-LONG,M5-LONG Longitudinal Knowledge-System Benchmark,development-bound,hard_capability,true
+M,MΩ,MOMEGA-EVOLVE,MOMEGA-EVOLVE Governed Memory-Mechanism Evolution Campaign,specification-only,hard_capability,true
+O,O0,O0-COORD,O0-COORD canonical benchmark family,development-bound,hard_capability,true
+O,O1,O1-PERSIST,O1-PERSIST canonical benchmark family,development-bound,hard_capability,true
+O,O2,O2-ADAPT,O2-ADAPT canonical benchmark family,development-bound,hard_capability,true
+O,O3,O3-THETA,O3-THETA canonical benchmark family,specification-only,hard_capability,true
+O,O4,O4-PSI,O4-PSI canonical benchmark family,specification-only,hard_capability,true
+O,O5,O5-DISC,O5-DISC canonical benchmark family,specification-only,hard_capability,true
+O,OΩ,OOMEGA-EVOLVE,OOMEGA-EVOLVE canonical benchmark family,specification-only,hard_capability,true
+SA,SA0,SA0-BASE,SA0-BASE canonical benchmark family,development-bound,hard_capability_from_SA1,true
+SA,SA1,SA1-STATE,SA1-STATE canonical benchmark family,development-bound,hard_capability_from_SA1,true
+SA,SA2,SA2-CAPABILITY,SA2-CAPABILITY canonical benchmark family,development-bound,hard_capability_from_SA1,true
+SA,SA3,SA3-CAUSAL,SA3-CAUSAL canonical benchmark family,development-bound,hard_capability_from_SA1,true
+SA,SA4,SA4-SELF-CHANGE,SA4-SELF-CHANGE canonical benchmark family,development-bound,hard_capability_from_SA1,true
+SA,SA5,SA5-META,SA5-META canonical benchmark family,development-bound,hard_capability_from_SA1,true
+SA,SA6,SA6-MISSION-ROLE,SA6-MISSION-ROLE canonical benchmark family,specification-only,hard_capability_from_SA1,true
+SA,SAΩ,SAOMEGA-REFLEX,SAOMEGA-REFLEX canonical benchmark family,specification-only,hard_capability_from_SA1,true
+T,T0,T0-ATOMIC,T0-ATOMIC canonical benchmark family,development-bound,ordered_axis,true
+T,T1,T1-ROUTINE,T1-ROUTINE canonical benchmark family,development-bound,ordered_axis,true
+T,T2,T2-MULTISTEP,T2-MULTISTEP canonical benchmark family,development-bound,ordered_axis,true
+T,T3,T3-COMPLEX,T3-COMPLEX canonical benchmark family,development-bound,ordered_axis,true
+T,T4,T4-EXPERT-PROJECT,T4-EXPERT-PROJECT canonical benchmark family,development-bound,ordered_axis,true
+T,T5,T5-FRONTIER,T5-FRONTIER canonical benchmark family,development-bound,ordered_axis,true
+T,T6,T6-MISSION,T6-MISSION canonical benchmark family,specification-only,ordered_axis,true
+T,TΩ,TOMEGA-CHARTER,TOMEGA-CHARTER canonical benchmark family,specification-only,ordered_axis,true
+H,H0,H0-NONE,H0-NONE canonical benchmark family,development-bound,ordered_axis,true
+H,H1,H1-EXCEPTION,H1-EXCEPTION canonical benchmark family,development-bound,ordered_axis,true
+H,H2,H2-OCCASIONAL,H2-OCCASIONAL canonical benchmark family,development-bound,ordered_axis,true
+H,H3,H3-PERIODIC,H3-PERIODIC canonical benchmark family,development-bound,ordered_axis,true
+H,H4,H4-FREQUENT,H4-FREQUENT canonical benchmark family,development-bound,ordered_axis,true
+H,H5,H5-CONTINUOUS,H5-CONTINUOUS canonical benchmark family,development-bound,ordered_axis,true
+DI,DI-surface,DI-FRONTIER,DI-FRONTIER canonical benchmark family,development-bound,cumulative_frontier,true
+HG,HG0,HG0-CONFORM,HG0-CONFORM canonical benchmark family,development-bound,cumulative_engineering,true
+HG,HG1,HG1-CONFORM,HG1-CONFORM canonical benchmark family,development-bound,cumulative_engineering,true
+HG,HG2,HG2-CONFORM,HG2-CONFORM canonical benchmark family,development-bound,cumulative_engineering,true
+HG,HG3,HG3-CONFORM,HG3-CONFORM canonical benchmark family,development-bound,cumulative_engineering,true
+HG,HG4,HG4-CONFORM,HG4-CONFORM canonical benchmark family,specification-only,cumulative_engineering,true
+HG,HG5,HG5-CONFORM,HG5-CONFORM canonical benchmark family,specification-only,cumulative_engineering,true
+HG,HG6,HG6-CONFORM,HG6-CONFORM canonical benchmark family,specification-only,cumulative_engineering,true
+HG,HGΩ,HGOMEGA-CONFORM,HGOMEGA-CONFORM canonical benchmark family,specification-only,cumulative_engineering,true
+U,U0,U0-GATE,U0-GATE canonical benchmark family,development-bound,hard_gated_integration,true
+U,U1,U1-GATE,U1-GATE canonical benchmark family,development-bound,hard_gated_integration,true
+U,U2,U2-GATE,U2-GATE canonical benchmark family,development-bound,hard_gated_integration,true
+U,U3,U3-GATE,U3-GATE canonical benchmark family,specification-only,hard_gated_integration,true
+U,U4,U4-GATE,U4-GATE canonical benchmark family,specification-only,hard_gated_integration,true
+U,U5,U5-GATE,U5-GATE canonical benchmark family,specification-only,hard_gated_integration,true
+U,U6,U6-GATE,U6-GATE canonical benchmark family,specification-only,hard_gated_integration,true
+U,UΩ,UOMEGA-GATE,UOMEGA-GATE canonical benchmark family,specification-only,hard_gated_integration,true
