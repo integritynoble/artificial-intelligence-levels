@@ -1,5 +1,7 @@
 # Source handover and answers — 2026-09-17
 
+A shorter cover note with the same content is in [`PAPER_SOURCE_HANDOVER_EMAIL.md`](PAPER_SOURCE_HANDOVER_EMAIL.md).
+
 Answers to the four requests about the theory paper: the LaTeX source, the data
 package, the figure code, and the three questions about versions and the frontier
 model. Everything claimed below was checked against the files on this date; where
