@@ -1,0 +1,43 @@
+DK-03 conversion log
+date: 2026-09-17T21:23:59Z
+source: paper-sources/unified-theory (main.tex f656561662361db260adfc72f2145fd96062d9649957c5db141fa7831cdba60c)
+template: JmlrOrg/tmlr-style-file, cloned 2026-09-16 (tmlr.sty, tmlr.bst, fancyhdr.sty)
+
+== conversion (tmlr-prep/dk03/convert_to_tmlr.py)
+  dropped \pdfoutput=1 (arXiv-specific; OpenReview takes the PDF as built)
+  dropped \documentclass (the wrapper supplies it, at 10pt as TMLR expects)
+  dropped \usepackage{inputenc} - tmlr.sty sets T1 fontenc and lmodern; utf8 is the modern default
+  dropped \usepackage{fontenc} - tmlr.sty loads [T1]{fontenc}
+  dropped \usepackage{geometry} - tmlr.sty sets the TMLR page geometry
+  dropped \usepackage{mathptmx} - TMLR uses its own (Computer Modern / lmodern) fonts
+  dropped \usepackage{helvet} - same
+  dropped \usepackage{courier} - same
+  dropped \usepackage{natbib} - tmlr.sty loads natbib itself; a second load clashes on options
+  dropped \usepackage{fancyhdr} - tmlr.sty loads fancyhdr and sets the TMLR running head
+  pdfauthor now expands \pdfauthorlist, which each wrapper defines (empty for the anonymous build) - otherwise the metadata leaks the authors
+  dropped the source's fancyhdr running-head block (TMLR sets its own head)
+  layout: retuned the float placement parameters (topfraction, textfraction, floatpagefraction, totalnumber) and confined floats to their own section with placeins, at section, subsection and subsubsection level - the source's settings leave table-only pages in the narrower TMLR block, and let tables drift above their own heading
+  replaced the centred title block with TMLR \title/\author/\maketitle
+  bibliography style plainnat -> tmlr (TMLR's author-year style)
+  layout: the U-gate display overflowed the TMLR text block by 14.9pt; set on two aligned lines instead of one
+  layout: loaded dsfont, which supplies a real indicator glyph (see the next fix)
+  layout: the two indicator functions in the U gate used \mathbb 1; the AMS blackboard font has no digits, so both printed as a wrong symbol in the published v2.6 PDF as well. \mathds{1} prints the intended indicator
+  copied the TMLR style files, references.bib and both figures into dk03_logonly/
+
+== figure repair (tmlr-prep/dk03/regenerate_figures.py)
+  panel title: "Success-only primitive, Eq. (9)" -> "Success-only primitive"
+  panel title: "Delivered-outcome primitive, Eq. (10), rho=1" -> "Delivered-outcome primitive, rho=1"
+  reason: (9) and (10) are the U-level gates; the primitives are (15) and (17) in both v2.6 and this build.
+  the numbers are dropped rather than corrected, so the labels cannot go stale again.
+  paper-sources/figures/make_figures.py is NOT modified; a patched copy runs from a temporary directory.
+
+== changes recorded after later review passes
+  the title-page date (September 3, 2026) is not carried into the TMLR edition: it lived in the centred
+    block that \maketitle replaces, and the template has no date field for submissions. Decision B4.
+  the correspondence mailto link went with that block; the anonymous build has no external links at all.
+  the U-gate indicator functions used \mathbb 1. The AMS blackboard font has no digits, so both printed
+    as a wrong symbol - in the published v2.6 PDF as well. dsfont is loaded and \mathds{1} prints the
+    intended indicator. This corrects a defect of the published paper, not of the conversion.
+  floats were confined to their own section, subsection and subsubsection (placeins plus two barriers).
+    Without it, tables drifted above their own heading: 6.1, 11.2 and 15.2 each showed a heading with the
+    next heading directly under it, their table having floated onto an earlier page.

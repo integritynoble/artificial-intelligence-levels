@@ -1,0 +1,35 @@
+date: 2026-09-17T02:16:23Z
+repo HEAD: 7a150eff4b9b661bd2bd800496dfddb4bb17d1e4 branch: dingyi/tmlr-prep
+python: Python 3.12.6 at /Users/dingyikang/.pyenv/shims/python3
+os: macOS 26.5.2 arm64
+command: python3 -B -m unittest -v tmlr-prep/dk06/test_delegation_frontier.py
+---
+test_cells_above_ceiling_are_ignored (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_cells_above_ceiling_are_ignored) ... ok
+test_empty_surface_gives_none (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_empty_surface_gives_none) ... ok
+test_failed_lower_band_blocks_higher_pass (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_failed_lower_band_blocks_higher_pass) ... ok
+test_lower_assistance_cell_counts_under_higher_ceiling (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_lower_assistance_cell_counts_under_higher_ceiling) ... ok
+test_monotone_surface_matches_original (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_monotone_surface_matches_original) ... ok
+test_randomized_agreement_with_policy_oracle (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_randomized_agreement_with_policy_oracle) ... ok
+test_t0_failure_gives_none (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_t0_failure_gives_none) ... ok
+test_threshold_is_inclusive (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_threshold_is_inclusive) ... ok
+test_unmeasured_lower_band_is_not_skipped (tmlr-prep.dk06.test_delegation_frontier.CumulativeFrontier.test_unmeasured_lower_band_is_not_skipped) ... ok
+test_original_disagrees_with_policy (tmlr-prep.dk06.test_delegation_frontier.OriginalHelperDefect.test_original_disagrees_with_policy) ... ok
+test_original_skips_failed_lower_band (tmlr-prep.dk06.test_delegation_frontier.OriginalHelperDefect.test_original_skips_failed_lower_band) ... ok
+test_gp_gate_cannot_enforce_gp_retention (tmlr-prep.dk06.test_delegation_frontier.OtherPublishedScorers.test_gp_gate_cannot_enforce_gp_retention) ... ok
+test_i_to_m_prerequisites_match_paper_table_7 (tmlr-prep.dk06.test_delegation_frontier.OtherPublishedScorers.test_i_to_m_prerequisites_match_paper_table_7) ... ok
+test_memory_scorer_does_enforce_no_skipping (tmlr-prep.dk06.test_delegation_frontier.OtherPublishedScorers.test_memory_scorer_does_enforce_no_skipping) ... ok
+test_retention_defaults_to_true_when_omitted (tmlr-prep.dk06.test_delegation_frontier.OtherPublishedScorers.test_retention_defaults_to_true_when_omitted) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.171s
+
+OK
+exit_code=0
+--- snapshot integrity after DK-06 work
+PASS: all 159 payload hashes and sizes match the publication manifest
+PASS: 155 dataset files match all 155 download ZIP members; no bytecode
+PASS: 89 JSON files, 43 JSONL files / 515 rows, and 4 Python syntax checks
+PASS: 82 method records, 82 matrix records, 124 combined public forms, 13 images
+LIMIT: integrity/structure only; historical metadata and scorer issues remain
+exit_code=0
+--- snapshot payload diff vs HEAD (blank = unchanged)
