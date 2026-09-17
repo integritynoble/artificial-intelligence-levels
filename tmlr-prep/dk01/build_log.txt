@@ -1,0 +1,48 @@
+DK-01 build log — recovered theory source
+date: 2026-09-17T18:12:48Z
+repo: f0f29312c032e03c9b1ca9c5e68a17eddec91922  branch: dingyi/tmlr-prep
+source: paper-sources/unified-theory/ (added in commit de19f09)
+build dir: fresh empty directory; files copied in; no BibTeX run (main.bbl is shipped)
+tex: pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)
+os: macOS 26.5.2 arm64
+
+=== Build A: three passes, as required (the handover note says twice; see finding below)
+command: pdflatex -interaction=nonstopmode main.tex   x3
+  pass 1: exit_code=0  warnings: 117  Label(s) may have changed
+  pass 2: exit_code=0  warnings: 1  Label(s) may have changed
+  pass 3: exit_code=0  warnings: 0  
+
+Producer:        pdfTeX-1.40.27
+Pages:           64
+Page size:       612 x 792 pts (letter)
+sha256: e329ee73f7b5ad45516f0cc4936f5fb6c41e77ad9c14a142662f9387863cd6da   (varies per build: the PDF embeds a timestamp)
+
+--- pass-3 warning scan (counts)
+  Undefined control sequence         0
+  LaTeX Warning: Reference           0
+  LaTeX Warning: Citation            0
+  Overfull                           0
+  Underfull                          0
+  Missing                            0
+  remaining LaTeX Warning lines: 0
+
+FINDING: two passes leave the table of contents wrong.
+  After pass 2 the log still says 'Label(s) may have changed. Rerun to get cross-references right.'
+  The pass-2 PDF lists the Introduction on page 2 (correct: page 5). Pass 3 clears the warning and fixes the TOC.
+
+=== Build B: byte-reproducible build (for DK-09 verification)
+command: SOURCE_DATE_EPOCH=1600000000 FORCE_SOURCE_DATE=1 pdflatex -interaction=nonstopmode main.tex   x3
+  pages: 64
+  sha256: 82ee83afcfcd7579d8c29c290e75a10fc948891cd6c0ceadfbd8c138f0a67707
+  repeat build: identical bytes (reproducible)
+
+=== Figure regeneration
+command: python3 make_figures.py --outdir <dir>   (matplotlib required; absent from system python3, run in a venv)
+  both figures regenerate; output is visually equivalent to the shipped PDFs but not byte-identical (the script is a rewrite; the handover says so)
+  shipped fig_hsc.pdf    3b07eff65544b8a06e84a1817afa28eab5efa1ab62c6e2ab0c204924ab7adf17
+  shipped fig_regime.pdf 08766800ec0ffc512261f5127d3b3087256b62741c3c3eb1b52a1a981b6171a9
+
+=== Ancillary dataset checks
+  shasum -c checksums.sha256 : 26 OK, 0 failed
+  python3 -B tools/validate.py : { "hsc_episodes": 48, "regime_switch_episodes": 24, "errors": []}
+  python3 -B tools/analyze.py  : runs, exit 0 (numbers compared in DK-05)
