@@ -12,13 +12,23 @@ This is a publication snapshot, not a complete benchmark service or an independe
 | AI-Level Bench: Measuring the Intelligence Level of Agents and Language Models in Every Coordinate | 0.4 | [Benchmark PDF](papers/AI_Level_Bench_v0_4.pdf) |
 | The AI-Level Index | 2.0, companion | [Index PDF](papers/The_AI_Level_Index_v2_0.pdf) |
 
-The theory, benchmark and dataset are the version-matched 2.6 / 0.4 / 0.4 publication bundle. The Index v2.0 is a separate companion with its own instrument studies and historical results; those results are not new measurements on this dataset snapshot. The benchmark and Index PDFs retain their source bytes and draft labels. The theory PDF has the author-only amendment described below; its scientific content is unchanged. Matching editable sources for the theory v2.6 and benchmark v0.4 PDFs were not found in the inspected release bundle.
+The theory, benchmark and dataset are the version-matched 2.6 / 0.4 / 0.4 publication bundle. The Index v2.0 is a separate companion with its own instrument studies and historical results; those results are not new measurements on this dataset snapshot. The benchmark and Index PDFs retain their source bytes and draft labels. The theory PDF has the author-only amendment described below; its scientific content is unchanged. The editable theory source is now published in [`paper-sources/`](paper-sources/README.md), together with the figure code, figure data and the paper's ancillary dataset; the [source handover](PAPER_SOURCE_HANDOVER.md) records how it maps onto the v2.6 PDF, which is a merge of a 65-page LaTeX build and four pages appended outside LaTeX. A matching editable source for the benchmark v0.4 PDF has still not been recovered.
 
 **Theory authors:** Chengshuai Yang, Ting Xue and Dingyi Kang — NextGen PlatformAI C Corp, USA. At the owner's request, the theory PDF's author line, author running headers and PDF Author metadata were amended on September 13, 2026. Its existing contribution statement is unchanged. The [original two-author PDF](https://github.com/integritynoble/artificial-intelligence-levels/blob/12331315048e1cbf35a706f80ba572be81dcdd78/papers/Unified_Intelligence_Theory_and_AI_Level_v2_6.pdf) remains recoverable in Git. This PDF amendment does not establish coauthor consent or journal-submission readiness; see [publication notes](PUBLICATION_NOTES.md).
 
 [TMLR submission plan](TMLR_SUBMISSION_PLAN.md): a no-publication-fee journal recommendation, content-preserving preparation workflow, readiness checklist and provisional 1–2-week preparation estimate. The paper has not been submitted through this plan.
 
-[Dingyi Kang's paper tasks](DINGYI_KANG_PAPER_TASKS.md): all preparation tasks assigned to Dingyi for a conditional 3–5-working-day sprint, with daily deliverables and owner-review checks. The public theory PDF now includes Dingyi; matching editable-source recovery, author confirmation, verified contribution statements and the anonymous TMLR edition remain pending.
+[Dingyi Kang's paper tasks](DINGYI_KANG_PAPER_TASKS.md): all preparation tasks assigned to Dingyi for a conditional 3–5-working-day sprint, with daily deliverables and owner-review checks. The public theory PDF now includes Dingyi; the editable source has since been recovered and published here, while author confirmation, verified contribution statements and the anonymous TMLR edition remain pending.
+
+## Paper sources
+
+[Theory LaTeX source](paper-sources/unified-theory/) · [Figure code and data](paper-sources/figures/) · [Ancillary dataset ZIP](downloads/Unified_Intelligence_Paper_Dataset.zip) · [Source handover and answers](PAPER_SOURCE_HANDOVER.md)
+
+`paper-sources/` holds the manuscript (`main.tex`), its BibTeX database and pre-built `main.bbl`, both figure PDFs, the two figures' regeneration code and data, and a LaTeX transcription of the four pages appended to the published v2.6 PDF. Two `pdflatex` passes build it: 64 pages, no undefined references, no overfull boxes, no BibTeX run.
+
+The v2.6 PDF is a merge of a 65-page pdfTeX build and four pages typeset outside LaTeX, so no single `.tex` file reproduces it; the published source contains every section of that PDF plus later additions. [`paper-sources/README.md`](paper-sources/README.md) documents the mapping, the version numbering (the website's v2.4 build is newer than the v2.6 package), and what is still missing.
+
+`downloads/Unified_Intelligence_Paper_Dataset.zip` is the ancillary archive the paper's data statement names: the released harness-scaling and regime-switch evidence, schemas, limitations and analysis code.
 
 ## Public dataset
 

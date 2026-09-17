@@ -1,0 +1,13 @@
+executor,rung,raw_hlis_di,net_hlis_di
+"Family A, stronger",HG0,93.3,86.7
+"Family A, stronger",HG1,93.3,93.3
+"Family A, stronger",HG2,96.7,96.7
+"Family A, stronger",HG3,96.7,96.7
+Family B,HG0,93.3,86.7
+Family B,HG1,93.3,93.3
+Family B,HG2,96.7,96.7
+Family B,HG3,96.7,96.7
+"Family A, weaker",HG0,78.3,56.7
+"Family A, weaker",HG1,91.7,91.7
+"Family A, weaker",HG2,91.7,91.7
+"Family A, weaker",HG3,93.3,93.3
