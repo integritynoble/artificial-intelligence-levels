@@ -1,0 +1,26 @@
+DK-08 disclosure build check
+date: 2026-09-18T17:23:25Z
+repo: f0f29312c032e03c9b1ca9c5e68a17eddec91922  branch: dingyi/dk08
+pdflatex: pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)
+
+The disclosure was inserted after \maketitle in the DK-03 named TMLR build and the
+page was read, rather than the file being shipped unbuilt.
+
+  LaTeX errors                0
+  page count                  63 (unchanged)
+  renders on page 1           yes
+  footnote marker             none (unnumbered)
+
+First attempt used ootnotetext[0], which printed a literal "0" as the marker.
+	hanks was not the answer either: it attaches to an author, and this is a
+paper-level statement. The working form renames 	hefootnote to empty inside a
+group and restores the counter afterwards.
+
+rendered footnote, page 1:
+Use of LLM-based tools. The authors used an LLM-based coding assistant for engineering and verification support
+during preparation of this submission: converting the manuscript to the TMLR template, writing the analysis and regression-test
+scripts, independently recomputing the reported values from the released evidence, auditing references and internal consistency,
+drafting proposed wording corrections for the authors’ review, and packaging the reproducibility supplement. The theory, the
+definitions, the experimental design, the measurements and the results reported here are the authors’ own and were not produced
+by these tools. Every reported value was checked against the released evidence, and the authors have verified and take full
+responsibility for the content of this paper.

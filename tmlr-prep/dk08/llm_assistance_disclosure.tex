@@ -1,0 +1,36 @@
+% DK-08: first-page LLM-assistance disclosure.
+%
+% TMLR's FAQ requires authors who used LLM tools to say so "as a footnote on the
+% first page", and states that "the ideas, claims and results found in
+% submissions are human-sourced, not produced by such tools". The footnote below
+% is therefore written to do two things: name the assistance accurately, and
+% draw the line between assistance and authorship where TMLR draws it.
+%
+% DRAFT. It describes only the assistance Dingyi Kang used and can attest to.
+% Chengshuai Yang and Ting Xue must each confirm their own use, or confirm they
+% used none, before this is accurate as a statement for all three authors.
+%
+% Place immediately after \maketitle, which is where this was built and checked:
+%     \maketitle
+%     \input{llm_assistance_disclosure}
+% It then renders as an unnumbered footnote at the foot of page 1.
+
+% An unnumbered footnote: \footnotetext[0] would print a literal "0" marker,
+% and \thanks attaches to an author, which is wrong for a paper-level statement.
+\begingroup
+\renewcommand{\thefootnote}{}%
+\footnotetext{%
+\textbf{Use of LLM-based tools.}
+The authors used an LLM-based coding assistant for engineering and verification
+support during preparation of this submission: converting the manuscript to the
+TMLR template, writing the analysis and regression-test scripts, independently
+recomputing the reported values from the released evidence, auditing references
+and internal consistency, drafting proposed wording corrections for the authors'
+review, and packaging the reproducibility supplement.
+The theory, the definitions, the experimental design, the measurements and the
+results reported here are the authors' own and were not produced by these tools.
+Every reported value was checked against the released evidence, and the authors
+have verified and take full responsibility for the content of this paper.%
+}%
+\addtocounter{footnote}{-1}%
+\endgroup
