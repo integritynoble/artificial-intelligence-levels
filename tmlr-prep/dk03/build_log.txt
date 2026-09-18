@@ -1,0 +1,65 @@
+DK-03 build log — TMLR edition
+date: 2026-09-17T21:24:23Z
+repo: f7be32e9db5778089ad83d96ae3e6dc317c7794e  branch: dingyi/tmlr-prep
+tex: pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)
+os: macOS 26.5.2 arm64
+
+commands, in a clean directory holding only the generated files, the TMLR style files, references.bib and the two figures:
+  python3 tmlr-prep/dk03/convert_to_tmlr.py --source paper-sources/unified-theory --template <tmlr-style-file> --outdir <build> --author-record <DK-02's author_record.json>
+  python3 tmlr-prep/dk03/regenerate_figures.py --figures paper-sources/figures --outdir <build> --python <interpreter with matplotlib>
+  pdflatex -interaction=nonstopmode <job>.tex ; bibtex <job> ; pdflatex x3
+
+== tmlr_submission
+  pages:            63
+  errors:           0
+  undefined refs:   0
+  undefined cites:  0
+  overfull hboxes:  0
+  underfull hboxes: 19  (cosmetic: stretched lines, no text lost)
+  LaTeX warnings:   0
+  fonts not embedded: 0
+  pdf Author field: ''
+  sha256:           ae15607de7d74cf84a983c64f15691f5f7fc0a7525ff0a974900e0620d66c83b
+== tmlr_named
+  pages:            63
+  errors:           0
+  undefined refs:   0
+  undefined cites:  0
+  overfull hboxes:  0
+  underfull hboxes: 17  (cosmetic: stretched lines, no text lost)
+  LaTeX warnings:   0
+  fonts not embedded: 0
+  pdf Author field: 'Chengshuai Yang and Ting Xue and Dingyi Kang'
+  sha256:           f2a9970f95ca4f0c28b22665ef79e19f97b44b0e7c69a655c9262d9b3ee8f100
+
+== checks run on the built PDFs
+  every one of the 63 pages of the committed submission PDF was inspected visually, not only the
+    flagged ones. The inspected artifact is build/tmlr_submission.pdf,
+    sha256 ae15607de7d74cf84a983c64f15691f5f7fc0a7525ff0a974900e0620d66c83b
+  text crossing the side margins:             0 blocks
+  table of contents:                          all entries point at the page the heading is actually on
+  external links in the anonymous build:      0 (the source had 1, the correspondence mailto)
+  internal links (cross-references):          310+, all resolving
+  fonts:                                      all embedded (the published v2.6 PDF has one unembedded Helvetica)
+  author names in the anonymous text:         only third-party citations (John Yang, SWE-bench; Xueguang Ma, MMLU-Pro)
+  pdf Author metadata in the anonymous build: empty
+  section headings with no content under them: 0 after confining floats (3 before: 6.1, 11.2, 15.2)
+
+== anonymity items left for a decision, not defects of the build
+  the contribution statement names 'C.Y.' and 'T.X.' - author initials in a double-blind submission (B5)
+  the words 'hilbench' and 'ailevel' in the naming note are searchable project identifiers (B2)
+
+== content preservation (source build vs TMLR build, text extracted from both PDFs)
+  word totals: 25700 vs 25778 (+78); the difference is TMLR's author-year citation style.
+  No body sentence differs.
+
+
+== rebuilt 2026-09-18T19:53:16Z
+The converter now builds the TMLR author block from DK-02's author_record.json
+instead of a hardcoded placeholder, so these artifacts were regenerated to match
+the script that produces them. Without --author-record the placeholder is still
+available but prints a warning, because it carries a wrong affiliation.
+Figures regenerated with matplotlib 3.10.8, the version the released figures name
+in their own metadata.
+  tmlr_named        63 pages, 0 undefined, 0 overfull
+  tmlr_submission   63 pages, 0 undefined, 0 overfull
