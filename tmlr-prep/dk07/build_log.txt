@@ -1,0 +1,40 @@
+DK-07 supplement build log
+date: 2026-09-18T16:20:24Z
+repo: a5986d85021e754089f274d5500ef88e1ee3da9a  branch: dingyi/dk07
+python: Python 3.12.6; os: macOS 26.5.2 arm64
+
+command: python3 -B tmlr-prep/dk07/make_supplement.py --variant <v> --sources <tree with dk05+dk06> --evidence <unpacked archive> --outdir <dir>
+
+############ variant: scripts
+== build log (scripts)
+   analysis/recompute.py: removed working-task identifiers (DK-0x, tmlr-prep)
+   analysis/frontier_cumulative.py: removed working-task identifiers (DK-0x, tmlr-prep)
+   analysis/test_frontier_cumulative.py: removed working-task identifiers (DK-0x, tmlr-prep)
+   analysis/test_frontier_cumulative.py: pointed the loader at the renamed module
+   analysis/test_frontier_cumulative.py: made standalone - the published scorers are resolved from AI_LEVEL_VERIFIERS or a bundled copy, and the tests that need them skip visibly when it is absent
+   wrote supplement_scripts.zip with fixed timestamps and no owner/group metadata
+
+== package: supplement_scripts.zip  0.01 MB  (within the 100 MB limit)
+
+== identity scan: 0 finding(s)
+   clean: no author, institution, repository or task identifier in any file or archive entry
+
+############ variant: full
+== build log (full)
+   analysis/recompute.py: removed working-task identifiers (DK-0x, tmlr-prep)
+   analysis/frontier_cumulative.py: removed working-task identifiers (DK-0x, tmlr-prep)
+   analysis/test_frontier_cumulative.py: removed working-task identifiers (DK-0x, tmlr-prep)
+   analysis/test_frontier_cumulative.py: pointed the loader at the renamed module
+   analysis/test_frontier_cumulative.py: made standalone - the published scorers are resolved from AI_LEVEL_VERIFIERS or a bundled copy, and the tests that need them skip visibly when it is absent
+   evidence README: replaced the Citation section, which named an author
+   withheld commit id study_manifest.json:runtime_source_commit
+   withheld commit id manifest.json:paper.repository_commit
+   withheld commit id manifest.json:studies.harness_scaling_curve.runtime_source_commit
+   resealed checksums.sha256 for 3 anonymised file(s); recorded them in ANONYMISATION.md
+   wrote supplement_full.zip with fixed timestamps and no owner/group metadata
+
+== package: supplement_full.zip  0.48 MB  (within the 100 MB limit)
+
+== identity scan: 0 finding(s)
+   clean: no author, institution, repository or task identifier in any file or archive entry
+
