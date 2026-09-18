@@ -1,0 +1,83 @@
+DK-02 author record build log
+date: 2026-09-18T16:37:11Z
+repo: f0f29312c032e03c9b1ca9c5e68a17eddec91922  branch: dingyi/dk02
+python: Python 3.12.6; pdflatex: pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)
+
+command: python3 tmlr-prep/dk02/update_author_record.py --source paper-sources/unified-theory --outdir <dir> --emit-tmlr-author <file>
+
+== author record applied
+   Chengshuai Yang    NextGen PlatformAI C Corp, USA     spiritai@platformai.org  (corresponding)
+   Ting Xue           NextGen PlatformAI C Corp, USA     no address on record
+   Dingyi Kang        University of Texas at Dallas, USA dingyi.kang@utdallas.edu
+
+== changes
+   PDF metadata: pdfauthor now lists all three authors
+   running header: 'Yang and Xue' -> 'Yang, Xue and Kang'
+   title page: added Dingyi Kang as third author, appended to preserve the existing order
+   title page: 2 affiliation/contact line(s) -> 2 affiliation(s) plus 2 contact(s), adding University of Texas at Dallas, USA
+
+== diff
+   --- main.tex (released)
+   +++ main.tex (author record applied)
+   @@ -32,3 +32,3 @@
+      pdftitle={Unified Intelligence Theory and the Artificial Intelligence Level: A Cumulative, Harness-Measurable Hierarchy},
+   -  pdfauthor={Chengshuai Yang and Ting Xue},
+   +  pdfauthor={Chengshuai Yang and Ting Xue and Dingyi Kang},
+      pdfsubject={A cumulative framework and measurement protocol for model-harness intelligence},
+   @@ -40,3 +40,3 @@
+    \fancyhead[L]{\small Unified Intelligence Theory and the Artificial Intelligence Level}
+   -\fancyhead[R]{\small Yang and Xue}
+   +\fancyhead[R]{\small Yang, Xue and Kang}
+    \fancyfoot[C]{\thepage}
+   @@ -78,5 +78,7 @@
+    and the AI-Level Score of a Base Model Across a Standardized Harness Ladder}\\[16pt]
+   -{\large Chengshuai Yang$^{1,*}$\quad Ting Xue$^{1}$}\\[5pt]
+   +{\large Chengshuai Yang$^{1,*}$\quad Ting Xue$^{1}$\quad Dingyi Kang$^{2}$}\\[5pt]
+    {\normalsize $^{1}$NextGen PlatformAI C Corp, USA}\\[4pt]
+   -{\normalsize $^{*}$Correspondence: \href{mailto:spiritai@platformai.org}{spiritai@platformai.org}}\\[10pt]
+   +{\normalsize $^{2}$University of Texas at Dallas, USA}\\[4pt]
+   +{\normalsize $^{*}$Correspondence: \href{mailto:spiritai@platformai.org}{spiritai@platformai.org}}\\[4pt]
+   +{\normalsize $^{2}$\href{mailto:dingyi.kang@utdallas.edu}{dingyi.kang@utdallas.edu}}\\[10pt]
+    {\small September 3, 2026}
+
+== wrote /private/tmp/claude-501/-Users-dingyikang-AI-Levels/6be4aabe-ad49-40da-a612-7cf1c6e64583/scratchpad/dk02build/src/main.tex
+
+############ TMLR author block generated from the same record
+\author{
+      \name Chengshuai Yang \email spiritai@platformai.org \\
+      \addr NextGen PlatformAI C Corp, USA
+      \AND
+      \name Ting Xue \\
+      \addr NextGen PlatformAI C Corp, USA
+      \AND
+      \name Dingyi Kang \email dingyi.kang@utdallas.edu \\
+      \addr University of Texas at Dallas, USA}
+
+############ builds (3 pdflatex passes each, SOURCE_DATE_EPOCH pinned)
+tmlr_named.pdf        63 pages, 0 undefined references
+tmlr_submission.pdf   63 pages, 0 undefined references
+
+############ rendered named title page
+Across a Standardized Harness Ladder
+Chengshuai Yang
+spiritai@platformai.org
+NextGen PlatformAI C Corp, USA
+Ting Xue
+NextGen PlatformAI C Corp, USA
+Dingyi Kang
+dingyi.kang@utdallas.edu
+University of Texas at Dallas, USA
+
+############ anonymous build, identity scan of text and metadata
+  Chengshuai         absent
+  Ting Xue           absent
+  Dingyi             absent
+  Kang               absent
+  utdallas           absent
+  platformai         absent
+  NextGen            absent
+  Texas at Dallas    absent
+
+############ title pages extracted
+build/title_named.pdf      1 page, metadata author = Chengshuai Yang and Ting Xue and Dingyi Kang
+build/title_anonymous.pdf  1 page, metadata author empty, page reads 'Anonymous authors'

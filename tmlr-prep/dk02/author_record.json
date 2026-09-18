@@ -1,0 +1,32 @@
+{
+  "note": "Canonical author record for the TMLR submission. PROPOSED, not yet confirmed by all three authors. DK-02 completion requires each author's written confirmation of spelling, order, affiliation, corresponding author and agreement to submit.",
+  "confirmed": false,
+  "order_rationale": "Dingyi Kang appended to preserve the existing two-author order, per the task file. Final order requires all three authors' agreement.",
+  "authors": [
+    {
+      "name": "Chengshuai Yang",
+      "surname": "Yang",
+      "affiliation": 1,
+      "corresponding": true,
+      "email": "spiritai@platformai.org"
+    },
+    {
+      "name": "Ting Xue",
+      "surname": "Xue",
+      "affiliation": 1,
+      "corresponding": false,
+      "email": null
+    },
+    {
+      "name": "Dingyi Kang",
+      "surname": "Kang",
+      "affiliation": 2,
+      "corresponding": false,
+      "email": "dingyi.kang@utdallas.edu"
+    }
+  ],
+  "affiliations": {
+    "1": "NextGen PlatformAI C Corp, USA",
+    "2": "University of Texas at Dallas, USA"
+  }
+}
