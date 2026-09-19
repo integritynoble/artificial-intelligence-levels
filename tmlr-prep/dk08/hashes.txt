@@ -1,0 +1,2 @@
+205592247e3885d2621d894336e1ea8c16c7534b278a7d906b701de424ea1338  tmlr-prep/dk08/llm_assistance_disclosure.tex
+9cee0becc5e9eb8d706e78dace64a1455bcdb17f9e7fdf8b500c647a4a816b78  tmlr-prep/dk08/declarations_checklist.md
