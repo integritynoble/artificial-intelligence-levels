@@ -1,0 +1,44 @@
+=== content audit, run 2026-09-18T16:21:06Z ===
+
+$ python3 audit_supplement_contents.py build/supplement_full.zip
+auditing build/supplement_full.zip
+
+1. dependencies
+   standard library only
+
+2. embedded links
+     3x  https://json-schema.org/draft/2020-12/schema
+   identifying links: 0
+
+3. development versus certification instances
+   items                                : 2978
+   marked certification_ready           : 824
+   ...of those, shipping with answers   : 824
+   development items with answers       : 618
+   per benchmark                        : {'SA_Bench': 96, 'H_Bench': 180, 'C_Bench': 220, 'T_Bench': 160, 'I_Bench': 72, 'M_Bench': 96}
+   FINDING: 824 items marked certification_ready ship with answer material ({'expected_json': 484, 'verifier': 824, 'expected_H': 180, 'expected_max_CID': 180, 'expected_difficulty_json': 160})
+
+4. the archive's own validator
+   the archive validates against its own checksums (exit 0)
+
+1 finding(s)
+exit 1
+
+$ python3 audit_supplement_contents.py build/supplement_scripts.zip
+auditing build/supplement_scripts.zip
+
+1. dependencies
+   standard library only
+
+2. embedded links
+   none
+   identifying links: 0
+
+3. development versus certification instances
+   no item corpus in this variant
+
+4. the archive's own validator
+   no bundled archive in this variant
+
+0 finding(s)
+exit 0
