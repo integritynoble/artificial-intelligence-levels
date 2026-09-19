@@ -1,0 +1,43 @@
+=== DK-09 candidate verification, 2026-09-18T18:05:51Z ===
+
+$ python3 verify_candidate.py --named tmlr_named.pdf --anonymous tmlr_submission.pdf
+1. equivalence: 2518 vs 2522 lines, 8 differing, 0 not explained by the author block
+     -Anonymous authors
+     -Paper under double-blind review
+     +Chengshuai Yang spiritai@platformai.org
+     +NextGen PlatformAI C Corp, USA
+     +Ting Xue
+     +NextGen PlatformAI C Corp, USA
+     +Dingyi Kang dingyi.kang@utdallas.edu
+     +University of Texas at Dallas, USA
+2. geometry: 63 pages, 0 finding(s)
+3. fonts: 35 fonts, 0 not embedded, 5 Type 3, 0 replacement characters
+     note: Type 3 fonts come from the matplotlib figures; not fatal, but they rasterise poorly and some venues discourage them
+4. figure labels: 0 label(s) citing an equation number
+5. anonymity: 0 identifying term(s) in text or metadata
+
+0 finding(s)
+exit 0
+
+=== negative control: the same checks against the candidate as built from the DOCUMENTED
+=== inputs alone, i.e. without the figure-regeneration step
+4. figure labels: 2 label(s) citing an equation number
+     primitive, Eq. (10)
+     primitive, Eq. (9)
+5. anonymity: 0 identifying term(s) in text or metadata
+
+4 finding(s)
+exit 1
+
+=== additional checks, 2026-09-18T19:25:48Z
+6. hand-typed cross-references
+   section: 38 cited, 0 unresolved
+   Table: 46 cited, 0 unresolved
+   Figure: 2 cited, 0 unresolved
+   Equation: 4 cited, 0 unresolved
+
+0 finding(s)
+
+figure data vs the paper's Table 39: 12 of 12 cells agree
+figure data vs the released archive: regime_switch_{frontier,haiku}.csv byte-identical
+bibliography: 30 entries, 30 cited, no orphan either way, 0 BibTeX warnings

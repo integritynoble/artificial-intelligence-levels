@@ -1,0 +1,32 @@
+DK-09 candidate build log
+date: 2026-09-18T18:07:27Z
+repo: f0f29312c032e03c9b1ca9c5e68a17eddec91922  branch: dingyi/dk09
+tex: pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)
+python: Python 3.12.6; figures regenerated with matplotlib 3.11.2 in a venv
+
+inputs verified against DK-01's frozen hashes: 5 of 5 match
+
+commands, in a clean directory:
+  python3 update_author_record.py --source paper-sources/unified-theory --outdir staged --emit-tmlr-author tmlr_author.tex
+  python3 convert_to_tmlr.py --source staged --template <tmlr-style-file> --outdir build
+  python3 regenerate_figures.py --figures paper-sources/figures --outdir build --python <venv with matplotlib>
+  pdflatex x3 + bibtex, SOURCE_DATE_EPOCH pinned
+
+== tmlr_named
+   pages:           63
+   undefined refs:  0
+   overfull boxes:  0
+   sha256:          eee49b58f95a6face7f191fbba4a006acfd3c822a9212d5f93de3906dac321c7
+== tmlr_submission
+   pages:           63
+   undefined refs:  0
+   overfull boxes:  0
+   sha256:          335ac583991413214070995a734f876235c0ab93ffbd1df9e2dcc8db86da5589
+
+== snapshot integrity
+PASS: all 159 payload hashes and sizes match the publication manifest
+PASS: 155 dataset files match all 155 download ZIP members; no bytecode
+PASS: 89 JSON files, 43 JSONL files / 515 rows, and 4 Python syntax checks
+PASS: 82 method records, 82 matrix records, 124 combined public forms, 13 images
+LIMIT: integrity/structure only; historical metadata and scorer issues remain
+   exit 0
